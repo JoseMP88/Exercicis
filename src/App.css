@@ -1,0 +1,143 @@
+.body,
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.HolyGrail-body {
+  display: flex;
+  flex: 1;
+}
+
+.HolyGrail-content {
+  flex: 1;
+}
+
+.HolyGrail-nav,
+.HolyGrail-ads {
+  /* 12em is the width of the columns */
+  flex: 0 0 12em;
+}
+
+.HolyGrail-nav {
+  /* put the nav on the left */
+  order: -1;
+}
+
+header,
+footer {
+  background-color: rgb(162, 180, 156);
+  line-height: 5rem;
+  padding: 0 3rem;
+  text-align: center;
+}
+
+main,
+nav,
+aside {
+  border: solid black 1px;
+  padding: 1rem;
+}
+
+footer {
+  line-height: 2rem;
+}
+.App {
+  text-align: center;
+}
+
+.comptador {
+  background-color: bisque;
+  width: 500px;
+  height: 500px;
+}
+
+.display {
+  background-color: black;
+  color: white;
+  width: 90%;
+  height: 50px;
+  margin: 10px 0 0 20px;
+}
+button {
+  background-color: grey;
+  cursor: pointer;
+}
+.botons {
+  display: flex;
+  float: left;
+  height: 150px;
+}
+.boton1 {
+  display: flex;
+  float: left;
+}
+.boton2 {
+  display: flex;
+}
+.boton3 {
+  display: flex;
+  clear: both;
+}
+/* graella */
+.fotos {
+  justify-content: space-between;
+  margin: auto;
+  row-gap: 10px;
+  flex-wrap: wrap;
+}
+img {
+  cursor: pointer;
+}
+
+.fotoGran {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.fotoPetita {
+  width: 100px;
+  height: 100px;
+}
+
+/* acordeo */
+
+h1 {
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.ocult {
+  display: none;
+}
+
+.visible {
+  visibility: visible;
+}
+
+/*carrusel*/
+
+.carrusel {
+  display: none;
+  width: 100px;
+  height: 100px;
+}
+
+.imagen {
+  width: 350px;
+  display: flex;
+  margin: auto;
+  height: 250px;
+  background-color: aqua;
+}
+
+.fotos {
+  display: flex;
+  float: center;
+  width: 500px;
+  height: 250px;
+}
