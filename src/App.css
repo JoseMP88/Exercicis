@@ -51,6 +51,7 @@ footer {
   background-color: bisque;
   width: 500px;
   height: 500px;
+  display: center;
 }
 
 .display {
@@ -81,14 +82,15 @@ button {
   clear: both;
 }
 /* graella */
-.fotos {
-  justify-content: space-between;
-  margin: auto;
-  row-gap: 10px;
+.Graella {
+  display: flex;
+  gap: 1em;
   flex-wrap: wrap;
 }
-img {
+.Graella img {
   cursor: pointer;
+  width: 33%;
+  height: 33%;
 }
 
 .fotoGran {
@@ -140,4 +142,25 @@ h1 {
   float: center;
   width: 500px;
   height: 250px;
+}
+
+.Vector {
+  display: flex;
+  float: left;
+  gap: 2em;
+}
+
+.Valores {
+  display: flex;
+  clear: both;
+  line-height: 3em;
+}
+
+.Introduir {
+  margin: auto;
+  width: 200px;
+  height: auto;
+  background-color: rgb(199, 188, 188);
+  clear: both;
+  line-height: 3em;
 }

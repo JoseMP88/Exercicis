@@ -21,19 +21,17 @@ export default function Graella() {
 
   return (
     <div className="Graella">
-      <div className="fotos">
-        {fotos.map((foto) => (
-          <img
-            alt="hola"
-            className={foto === fotoACanviar ? cssClass : "fotoPetita"}
-            key={foto}
-            src={foto}
-            width="30%"
-            height="30%"
-            onClick={() => size(foto)}
-          />
-        ))}
-      </div>
+      {fotos.map((foto) => (
+        <img
+          alt="hola"
+          className={foto === fotoACanviar ? cssClass : "fotoPetita"}
+          key={foto}
+          src={foto}
+          width="30%"
+          height="30%"
+          onClick={() => size(foto)}
+        />
+      ))}
     </div>
   );
 }
