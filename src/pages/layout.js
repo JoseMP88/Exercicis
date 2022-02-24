@@ -44,6 +44,12 @@ export default function Layout() {
               <li>
                 <Link to="/NoRepetits">Ex 3 items No Repetits</Link>
               </li>
+              <li>
+                <Link to="/CounterUseReducer">Counter useReducer</Link>
+              </li>
+              <li>
+                <Link to="/CounterRedux">Counter Redux</Link>
+              </li>
             </ul>
           </nav>
           <aside className="HolyGrail-ads">aside…</aside>
